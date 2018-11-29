@@ -4,16 +4,16 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Feedback {
-    private boolean success;
+    private String status;
     private int msgsize;
     private String msg;
 
-    public boolean isSuccess() {
-        return success;
+    public String getStatus() {
+        return status;
     }
 
-    public void setSuccess(boolean success) {
-        this.success = success;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public int getMsgsize() {

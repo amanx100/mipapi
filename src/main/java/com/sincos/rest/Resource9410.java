@@ -4,7 +4,6 @@ package com.sincos.rest;
 import com.sincos.rest.pojo.Feedback;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -22,7 +21,7 @@ public class Resource9410 {
         Feedback feedback = new Feedback();
         feedback.setMsgsize(printSize);
         feedback.setMsg(printMsg);
-        feedback.setSuccess(false);
+        feedback.setStatus("yes");
 
         return doResponse(feedback);
     }
@@ -38,7 +37,7 @@ public class Resource9410 {
         Feedback feedback = new Feedback();
         feedback.setMsgsize(printSize);
         feedback.setMsg(printMsg);
-        feedback.setSuccess(false);
+        feedback.setStatus("hei");
 
         return doResponse(feedback);
     }

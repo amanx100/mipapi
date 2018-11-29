@@ -3,6 +3,7 @@ package com.sincos.app;
 import com.sun.jersey.api.container.httpserver.HttpServerFactory;
 import com.sun.net.httpserver.HttpServer;
 import javafx.fxml.FXML;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -11,6 +12,15 @@ public class Controller {
 
     HttpServer server = null;
 
+    @FXML
+    Label statusLabel;
+
+    @FXML
+    TextField printerIp, printerPort, hostPort;
+
+    @FXML
+    CheckBox startServiceStartup, minimizeServiceStartup, exitOnClose;
+
     public Controller() {
         System.out.println("operation main controller!");
     }
@@ -18,6 +28,7 @@ public class Controller {
     @FXML
     private void initialize() {
         System.out.println("init main fxml");
+        statusLabel.setText("Ready to run.");
     }
 
     private Stage primaryStage = null;
@@ -56,6 +67,17 @@ public class Controller {
     @FXML
     private void stopButton(){
         System.out.println("Stop Button Pressed!");
+    }
+
+    @FXML
+    private void saveButton() {
+        System.out.println("Save button pressed!");
+        System.out.println(startServiceStartup.isSelected());
+        System.out.println(minimizeServiceStartup.isSelected());
+        System.out.println(exitOnClose.isSelected());
+        System.out.println(printerIp.getText());
+        System.out.println(printerPort.getText());
+        System.out.println(hostPort.getText());
     }
 
 
