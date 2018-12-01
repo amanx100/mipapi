@@ -4,24 +4,26 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Feedback {
-    private String status;
-    private int msgsize;
+
+    private String size;
+    private String sizeStatus;
     private String msg;
+    private String msgStatus;
 
-    public String getStatus() {
-        return status;
+    public String getSize() {
+        return size;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setSize(String size) {
+        this.size = size;
     }
 
-    public int getMsgsize() {
-        return msgsize;
+    public String getSizeStatus() {
+        return sizeStatus;
     }
 
-    public void setMsgsize(int msgsize) {
-        this.msgsize = msgsize;
+    public void setSizeStatus(String sizeStatus) {
+        this.sizeStatus = sizeStatus;
     }
 
     public String getMsg() {
@@ -30,5 +32,13 @@ public class Feedback {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public String getMsgStatus() {
+        return msgStatus;
+    }
+
+    public void setMsgStatus(String msgStatus) {
+        this.msgStatus = msgStatus;
     }
 }
