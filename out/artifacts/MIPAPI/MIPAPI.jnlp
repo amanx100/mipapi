@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MIPAPI.jnlp">
+  <information>
+    <title>MIPAPI</title>
+    <vendor>Sincos</vendor>
+    <description>MIPAPI</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MIPAPI.jar" size="22928" download="eager" />
+    <jar href="activation-1.1.jar" size="62983" download="eager" />
+    <jar href="jackson-core-asl-1.9.2.jar" size="228286" download="eager" />
+    <jar href="jackson-jaxrs-1.9.2.jar" size="18323" download="eager" />
+    <jar href="jackson-mapper-asl-1.9.2.jar" size="765648" download="eager" />
+    <jar href="jackson-xc-1.9.2.jar" size="27075" download="eager" />
+    <jar href="jaxb-api-2.2.2.jar" size="105134" download="eager" />
+    <jar href="jaxb-impl-2.2.3-1.jar" size="890168" download="eager" />
+    <jar href="jersey-core-1.19.jar" size="436689" download="eager" />
+    <jar href="jersey-json-1.19.jar" size="165345" download="eager" />
+    <jar href="jersey-server-1.19.jar" size="702882" download="eager" />
+    <jar href="jettison-1.1.jar" size="67758" download="eager" />
+    <jar href="jsr311-api-1.1.1.jar" size="46367" download="eager" />
+    <jar href="sqlite-jdbc-3.21.0.jar" size="6672489" download="eager" />
+    <jar href="stax-api-1.0-2.jar" size="23346" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.sincos.app.Main"  name="MIPAPI" />
+  <update check="background"/>
+</jnlp>

@@ -135,7 +135,7 @@ public class DataManager {
             statement = connection.createStatement();
 
             System.out.println("Settings data fetching!");
-            resultSet = statement.executeQuery("SELECT * FROM settings");
+            resultSet = statement.executeQuery("SELECT * FROM settings WHERE id = 1");
             if (resultSet.next()) {
                 returnData.put("printerIp", resultSet.getString("printerIp"));
                 returnData.put("printerPort", resultSet.getString("printerPort"));
@@ -175,7 +175,7 @@ public class DataManager {
         int _autoMinimize = autoMinimize?1:0;
         int _exitOnClose = exitOnClose?1:0;
 
-        returnStatus = statementExecute("UPDATE settings SET printerIp='"+printerIp+"', printerPort="+printerPort+", hostPort="+hostPort+", autoStartService="+_autoStartService+", autoMinimize="+_autoMinimize+", exitOnClose="+_exitOnClose);
+        returnStatus = statementExecute("UPDATE settings SET printerIp='"+printerIp+"', printerPort="+printerPort+", hostPort="+hostPort+", autoStartService="+_autoStartService+", autoMinimize="+_autoMinimize+", exitOnClose="+_exitOnClose+" WHERE id=1");
         return returnStatus;
     }
 

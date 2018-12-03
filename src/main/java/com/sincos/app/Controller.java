@@ -48,17 +48,17 @@ public class Controller {
             GlobalData.setPrinterIp(dbData.get("printerIp"));
             GlobalData.setPrinterPort(dbData.get("printerPort"));
             GlobalData.setHostPort(dbData.get("hostPort"));
-            GlobalData.setAutoStartService(dbData.get("autoStartService"));
-            GlobalData.setAutoMinimize(dbData.get("autoMinimize"));
-            GlobalData.setExitOnClose(dbData.get("exitOnClose"));
+            GlobalData.setAutoStartService(!dbData.get("autoStartService").equals("0"));
+            GlobalData.setAutoMinimize(!dbData.get("autoMinimize").equals("0"));
+            GlobalData.setExitOnClose(!dbData.get("exitOnClose").equals("0"));
 
             // Reading all of the settings data and set it to its own UI location
             printerIp.setText(GlobalData.getPrinterIp());
             printerPort.setText(GlobalData.getPrinterPort());
             hostPort.setText(GlobalData.getHostPort());
-            autoStartService.setSelected(Boolean.parseBoolean(GlobalData.getAutoStartService()));
-            autoMinimize.setSelected(Boolean.parseBoolean(GlobalData.getAutoMinimize()));
-            exitOnClose.setSelected(Boolean.parseBoolean(GlobalData.getExitOnClose()));
+            autoStartService.setSelected(GlobalData.isAutoStartService());
+            autoMinimize.setSelected(GlobalData.isAutoMinimize());
+            exitOnClose.setSelected(GlobalData.isExitOnClose());
         } else {
             // Program may never come here
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -78,6 +78,11 @@ public class Controller {
         updateUiAndSettingsData();
         GlobalData.viewStatus.setText("Ready to run");
         stopButton.setDisable(true);
+
+        if (GlobalData.isAutoStartService()){
+            System.out.println("Auto service started");
+            startButton();
+        }
     }
 
     @FXML
@@ -131,16 +136,20 @@ public class Controller {
     @FXML
     private void saveButton() {
         System.out.println("Save button pressed!");
-        /*System.out.println(autoStartService.isSelected());
-        System.out.println(autoMinimize.isSelected());
-        System.out.println(exitOnClose.isSelected());
-        System.out.println(printerIp.getText());
-        System.out.println(printerPort.getText());
-        System.out.println(hostPort.getText());*/
+        boolean isValidPrinterIp = GlobalInputValidator.isValidIpAddress(printerIp.getText());
+        boolean isValidPrinterPort = GlobalInputValidator.isValidHostPort(printerPort.getText());
+        boolean isValidHostPort = GlobalInputValidator.isValidHostPort(hostPort.getText());
 
-        DataManager.saveSettingsData(printerIp.getText(), Integer.parseInt(printerPort.getText()), Integer.parseInt(hostPort.getText()),autoStartService.isSelected(), autoMinimize.isSelected(), exitOnClose.isSelected());
-        System.out.println("success");
+        if (isValidPrinterIp && isValidPrinterPort && isValidHostPort){
+            DataManager.saveSettingsData(printerIp.getText(), Integer.parseInt(printerPort.getText()), Integer.parseInt(hostPort.getText()),autoStartService.isSelected(), autoMinimize.isSelected(), exitOnClose.isSelected());
+            updateUiAndSettingsData();
+            System.out.println("Data saved successfully");
+            GlobalData.viewStatus.setText("Data saved");
+        } else {
+            System.out.println("cant save data due to invalid input");
+            GlobalData.viewStatus.setText("Invalid settings data");
+        }
+
+
     }
-
-
 }

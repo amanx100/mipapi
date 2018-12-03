@@ -13,9 +13,9 @@ public class GlobalData {
     private static String printerIp;
     private static String printerPort;
     private static String hostPort;
-    private static String autoStartService;
-    private static String autoMinimize;
-    private static String exitOnClose;
+    private static boolean autoStartService;
+    private static boolean autoMinimize;
+    private static boolean exitOnClose;
 
     public static String getDeviceMac() {
         return deviceMac;
@@ -45,27 +45,27 @@ public class GlobalData {
         GlobalData.hostPort = hostPort;
     }
 
-    public static String getAutoStartService() {
+    public static boolean isAutoStartService() {
         return autoStartService;
     }
 
-    public static void setAutoStartService(String autoStartService) {
+    public static void setAutoStartService(boolean autoStartService) {
         GlobalData.autoStartService = autoStartService;
     }
 
-    public static String getAutoMinimize() {
+    public static boolean isAutoMinimize() {
         return autoMinimize;
     }
 
-    public static void setAutoMinimize(String autoMinimize) {
+    public static void setAutoMinimize(boolean autoMinimize) {
         GlobalData.autoMinimize = autoMinimize;
     }
 
-    public static String getExitOnClose() {
+    public static boolean isExitOnClose() {
         return exitOnClose;
     }
 
-    public static void setExitOnClose(String exitOnClose) {
+    public static void setExitOnClose(boolean exitOnClose) {
         GlobalData.exitOnClose = exitOnClose;
     }
 }
