@@ -5,7 +5,7 @@ import javafx.scene.text.Text;
 
 public class GlobalData {
     // Set this value manually
-    private static String deviceMac = "00-90-9b-44-9d-71";
+    private static String deviceId = "00-90-9b-44-9d-71";
 
     // Status text object to change from anywhere
     public static Text viewStatus;
@@ -17,8 +17,12 @@ public class GlobalData {
     private static boolean autoMinimize;
     private static boolean exitOnClose;
 
-    public static String getDeviceMac() {
-        return deviceMac;
+    public static String getDeviceId() {
+        return deviceId;
+    }
+
+    public static void setDeviceId(String deviceId) {
+        GlobalData.deviceId = deviceId;
     }
 
     public static String getPrinterIp() {

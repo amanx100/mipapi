@@ -79,7 +79,7 @@ public class ImajeDeviceManager {
                 System.out.println(finalOutputString);
                 response = false;
                 for (int i=0; i<finder.size(); i++){
-                    if (finder.get(i).contains(GlobalData.getDeviceMac()) && finder.get(i).contains(GlobalData.getPrinterIp())){
+                    if (finder.get(i).contains(GlobalData.getDeviceId()) && finder.get(i).contains(GlobalData.getPrinterIp())){
                         response = true;
                         break;
                     }

@@ -7,31 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/MIPAPI.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/settings.dmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeConnectionManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sincos/imaje/device/ImajeConnectionManager.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/app/Controller$1.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/app/Controller$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/app/Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/app/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/app/DataManager.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/app/DataManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/app/GlobalData.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/app/GlobalData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/app/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/app/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/imaje/device/ImajeDeviceManager.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/imaje/device/ImajeDeviceManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/ComENet.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/ComENet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/ComSPort.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/ComSPort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/Communication.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/Communication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/NetworkInterface9410.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/imaje/lib/NetworkInterface9410.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/rest/Resource9410.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/rest/Resource9410.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sincos/rest/pojo/Feedback.class" afterPath="$PROJECT_DIR$/target/classes/com/sincos/rest/pojo/Feedback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIPAPI.iml" afterPath="$PROJECT_DIR$/MIPAPI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java" afterPath="$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sincos/app/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/sincos/app/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeDeviceManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeDeviceManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxmls/main.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxmls/main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxmls/main.fxml" afterPath="$PROJECT_DIR$/target/classes/fxmls/main.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,51 +78,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxmls/main.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="-538">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalInputValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalInputValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resource9410.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/rest/Resource9410.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,52 +91,18 @@
       <file leaf-file-name="GlobalData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="164" column="13" lean-forward="false" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getDbConnection#0;class#DataManager#0" expanded="false" />
-                <element signature="method#isTableAvailable#0;class#DataManager#0" expanded="false" />
-                <element signature="method#statementExecute#0;class#DataManager#0" expanded="false" />
-                <marker date="1543727286000" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
-                <marker date="1543727286000" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
-                <marker date="1543727286000" expanded="true" signature="4633:4655" ph="SELECT * FRO... settings" />
-                <marker date="1543727286000" expanded="true" signature="4633:4668" ph="SELECT * FRO... settings" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImajeDeviceManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeDeviceManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -239,12 +154,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sincos/rest/Resource9410.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/imajeDeviceManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeDeviceManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalInputValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxmls/main.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxmls/main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java" />
       </list>
     </option>
   </component>
@@ -254,9 +169,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+    <option name="x" value="37" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
@@ -280,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -371,6 +286,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -542,17 +458,32 @@
       <workItem from="1543809375661" duration="5969000" />
       <workItem from="1543817871974" duration="116000" />
       <workItem from="1543818019115" duration="5896000" />
+      <workItem from="1543982173713" duration="13583000" />
+      <workItem from="1544685134007" duration="640000" />
+      <workItem from="1544688400214" duration="1460000" />
+      <workItem from="1545457330613" duration="1768000" />
+      <workItem from="1545470459138" duration="387000" />
+      <workItem from="1545796478373" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62311000" />
+    <option name="totallyTimeSpent" value="82165000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30706075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -560,19 +491,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35303777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33004925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22919819" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -583,7 +515,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,9 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,10 +586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,10 +599,11 @@
             <element signature="method#getDbConnection#0;class#DataManager#0" expanded="false" />
             <element signature="method#isTableAvailable#0;class#DataManager#0" expanded="false" />
             <element signature="method#statementExecute#0;class#DataManager#0" expanded="false" />
-            <marker date="1543727286000" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="4633:4655" ph="SELECT * FRO... settings" />
-            <marker date="1543727286000" expanded="true" signature="4633:4668" ph="SELECT * FRO... settings" />
+            <element signature="method#saveSettingsData#0;class#DataManager#0" expanded="false" />
+            <marker date="1544001886706" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="4687:4709" ph="SELECT * FRO... settings" />
+            <marker date="1544001886706" expanded="true" signature="4687:4722" ph="SELECT * FRO... settings" />
           </folding>
         </state>
       </provider>
@@ -703,9 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,10 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,10 +661,11 @@
             <element signature="method#getDbConnection#0;class#DataManager#0" expanded="false" />
             <element signature="method#isTableAvailable#0;class#DataManager#0" expanded="false" />
             <element signature="method#statementExecute#0;class#DataManager#0" expanded="false" />
-            <marker date="1543727286000" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="4633:4655" ph="SELECT * FRO... settings" />
-            <marker date="1543727286000" expanded="true" signature="4633:4668" ph="SELECT * FRO... settings" />
+            <element signature="method#saveSettingsData#0;class#DataManager#0" expanded="false" />
+            <marker date="1544001886706" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="4687:4709" ph="SELECT * FRO... settings" />
+            <marker date="1544001886706" expanded="true" signature="4687:4722" ph="SELECT * FRO... settings" />
           </folding>
         </state>
       </provider>
@@ -769,9 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,10 +705,11 @@
             <element signature="method#getDbConnection#0;class#DataManager#0" expanded="false" />
             <element signature="method#isTableAvailable#0;class#DataManager#0" expanded="false" />
             <element signature="method#statementExecute#0;class#DataManager#0" expanded="false" />
-            <marker date="1543727286000" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="4633:4655" ph="SELECT * FRO... settings" />
-            <marker date="1543727286000" expanded="true" signature="4633:4668" ph="SELECT * FRO... settings" />
+            <element signature="method#saveSettingsData#0;class#DataManager#0" expanded="false" />
+            <marker date="1544001886706" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="4687:4709" ph="SELECT * FRO... settings" />
+            <marker date="1544001886706" expanded="true" signature="4687:4722" ph="SELECT * FRO... settings" />
           </folding>
         </state>
       </provider>
@@ -838,9 +760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -894,20 +814,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxmls/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java">
@@ -983,45 +901,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeConnectionManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeDeviceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="164" column="13" lean-forward="false" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+        <state relative-caret-position="1275">
+          <caret line="81" column="65" lean-forward="false" selection-start-line="81" selection-start-column="65" selection-end-line="81" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getDbConnection#0;class#DataManager#0" expanded="false" />
-            <element signature="method#isTableAvailable#0;class#DataManager#0" expanded="false" />
-            <element signature="method#statementExecute#0;class#DataManager#0" expanded="false" />
-            <marker date="1543727286000" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
-            <marker date="1543727286000" expanded="true" signature="4633:4655" ph="SELECT * FRO... settings" />
-            <marker date="1543727286000" expanded="true" signature="4633:4668" ph="SELECT * FRO... settings" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/rest/Resource9410.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="833">
           <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1029,52 +922,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalInputValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxmls/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeDeviceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/imaje/device/ImajeConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxmls/main.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1071">
+          <caret line="145" column="76" lean-forward="false" selection-start-line="145" selection-start-column="76" selection-end-line="145" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDbConnection#0;class#DataManager#0" expanded="false" />
+            <element signature="method#isTableAvailable#0;class#DataManager#0" expanded="false" />
+            <element signature="method#statementExecute#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveSettingsData#0;class#DataManager#0" expanded="false" />
+            <marker date="1544001886706" expanded="true" signature="1136:1196" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="1136:1210" ph="SELECT name sqlite_master" />
+            <marker date="1544001886706" expanded="true" signature="4687:4709" ph="SELECT * FRO... settings" />
+            <marker date="1544001886706" expanded="true" signature="4687:4722" ph="SELECT * FRO... settings" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalInputValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-538">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/GlobalData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sincos/app/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

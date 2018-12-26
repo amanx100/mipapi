@@ -21,6 +21,9 @@ public class Controller {
     HttpServer server = null;
 
     @FXML
+    TabPane mainTabPane;
+
+    @FXML
     Button startButton, stopButton;
 
     @FXML
@@ -51,6 +54,7 @@ public class Controller {
             GlobalData.setAutoStartService(!dbData.get("autoStartService").equals("0"));
             GlobalData.setAutoMinimize(!dbData.get("autoMinimize").equals("0"));
             GlobalData.setExitOnClose(!dbData.get("exitOnClose").equals("0"));
+            //GlobalData.setDeviceId(dbData.get("deviceId"));
 
             // Reading all of the settings data and set it to its own UI location
             printerIp.setText(GlobalData.getPrinterIp());

@@ -112,8 +112,8 @@ public class DataManager {
                 returnStatus = true;
             } else {
                 System.out.println("settings table is not available. creating new one.");
-                returnStatus_1 = statementExecute("CREATE TABLE settings(id INTEGER PRIMARY KEY, printerIp VARCHAR(20), printerPort INT, hostPort INT, autoStartService INT, autoMinimize INT, exitOnClose INT)");
-                returnStatus_2 = statementExecute("INSERT INTO settings VALUES (null, '192.168.10.220', 2000, 4000, 0, 0, 0)");
+                returnStatus_1 = statementExecute("CREATE TABLE settings(id INTEGER PRIMARY KEY, printerIp VARCHAR(20), printerPort INT, hostPort INT, autoStartService INT, autoMinimize INT, exitOnClose INT, deviceId VARCHAR(20))");
+                returnStatus_2 = statementExecute("INSERT INTO settings VALUES (null, '192.168.10.220', 2000, 4000, 0, 0, 0, '"+GlobalData.getDeviceId()+"')");
                 // if all return status true then the final return status true
                 returnStatus = (returnStatus_1 && returnStatus_2);
             }
@@ -143,6 +143,7 @@ public class DataManager {
                 returnData.put("autoStartService", resultSet.getString("autoStartService"));
                 returnData.put("autoMinimize", resultSet.getString("autoMinimize"));
                 returnData.put("exitOnClose", resultSet.getString("exitOnClose"));
+                returnData.put("deviceId", resultSet.getString("deviceId"));
             }
 
         } catch (SQLException e) {
